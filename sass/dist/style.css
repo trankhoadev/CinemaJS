@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
+}
+*:focus {
+  outline: 0;
+}
+* input::-webkit-outer-spin-button,
+* input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.col-1 {
+  width: 6.333333333%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-2 {
+  width: 14.66666667%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-3 {
+  width: 23%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-4 {
+  width: 31.33333333%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-5 {
+  width: 39.66666667%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-6 {
+  width: 48%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-7 {
+  width: 56.33333333%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-8 {
+  width: 64.66666667;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-9 {
+  width: 73%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-10 {
+  width: 81.33333333%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-11 {
+  width: 89.66666667%;
+  float: left;
+  margin: 0 1%;
+}
+
+.col-12 {
+  width: 98%;
+  float: left;
+  margin: 0 1%;
+}
+
+.nav-menu {
+  border: 2px solid black;
+  width: 100% !important;
+  max-width: 1500px !important;
+}
+.nav-menu .nav-body {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.body-content {
+  width: 100% !important;
+  max-width: 1500px !important;
+  border: 1px solid black;
+}
+.body-content .m2l .left-top {
+  border: 1px solid black;
+  width: 100% !important;
+}
+.body-content .m2l .left-top li {
+  margin-left: 20px;
+}
+.body-content .m2l .left-top li a {
+  padding: 7px 0px;
+  display: inline-block;
+}
+.body-content .m2l .left-bottom {
+  height: 500px;
+  border: 1px solid black;
+  width: 100% !important;
+}
+.body-content .m8 .body-input {
+  margin-top: 20px;
+}
+.body-content .m8 .body-input label {
+  font-weight: bold;
+  line-height: 20px;
+}
+.body-content .m8 .body-input input[type=text] {
+  border: 1px solid black;
+  width: 100% !important;
+  height: 38px;
+  border-radius: 3px;
+  padding: 0px 18px;
+}
+.body-content .m8 .body-input input[type=text]::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+}
+.body-content .m8 .body-input input[type=text]:focus {
+  caret-color: #306BF3;
+}
+.body-content .m8 .body-input select {
+  border: 1px solid black;
+  width: 100% !important;
+  height: 38px;
+  border-radius: 3px;
+  padding: 0px 18px;
+}
+.body-content .m8 .body-input select::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+}
+.body-content .m8 .body-input select:focus {
+  caret-color: #306BF3;
+}
+.body-content .m8 .body-input .check p {
+  color: red;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.body-content .m8 .body-input .box {
+  display: flex;
+  align-items: center;
+}
+.body-content .m8 .body-input .box .checkbox {
+  margin-left: 20px;
+}
+.body-content .m8 .body-input .box .checkbox label.class {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.body-content .m2r {
+  width: 100% !important;
+  border: 1px solid black;
+}
+.body-content .m2r .right-top img {
+  margin-top: 20px;
+}
+.body-content .m2r .right-bottom {
+  border-bottom: 2px solid black;
+}
+
+.footer {
+  width: 100% !important;
+  max-width: 1500px !important;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}

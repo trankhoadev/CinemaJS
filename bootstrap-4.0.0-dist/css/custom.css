@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif; }
+  *:focus {
+    outline: 0; }
+  * input::-webkit-outer-spin-button,
+  * input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+
+.col-1 {
+  width: 6.333333333%;
+  float: left;
+  margin: 0 1%; }
+
+.col-2 {
+  width: 14.66666667%;
+  float: left;
+  margin: 0 1%; }
+
+.col-3 {
+  width: 23%;
+  float: left;
+  margin: 0 1%; }
+
+.col-4 {
+  width: 31.33333333%;
+  float: left;
+  margin: 0 1%; }
+
+.col-5 {
+  width: 39.66666667%;
+  float: left;
+  margin: 0 1%; }
+
+.col-6 {
+  width: 48%;
+  float: left;
+  margin: 0 1%; }
+
+.col-7 {
+  width: 56.33333333%;
+  float: left;
+  margin: 0 1%; }
+
+.col-8 {
+  width: 64.66666667;
+  float: left;
+  margin: 0 1%; }
+
+.col-9 {
+  width: 73%;
+  float: left;
+  margin: 0 1%; }
+
+.col-10 {
+  width: 81.33333333%;
+  float: left;
+  margin: 0 1%; }
+
+.col-11 {
+  width: 89.66666667%;
+  float: left;
+  margin: 0 1%; }
+
+.col-12 {
+  width: 98%;
+  float: left;
+  margin: 0 1%; }
+
+
+.container
+{
+    width: 100%;
+    margin: 0px auto;
+}
+/*# sourceMappingURL=style.css.map */
